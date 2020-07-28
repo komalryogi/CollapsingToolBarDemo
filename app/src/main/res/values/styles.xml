@@ -1,10 +1,26 @@
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/whiteColor</item>
+        <item name="android:navigationBarColor">@color/colorThemeSecond</item>
     </style>
 
+
+    <style name="textbtn">
+        <item name="android:textSize">@dimen/big</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:layout_height">@dimen/dp50</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorThemeSecond</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
 </resources>
